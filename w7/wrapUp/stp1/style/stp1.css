@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-.section {
-  /* background-color: red; */
-}
-
 .container {
   /* background-color: green; */
   max-width: 1248px;
@@ -109,4 +105,40 @@
 #hero2 p {
   max-width: 40ch;
   margin-bottom: 24px;
+}
+
+.footer {
+  background-color: gray;
+  color: white;
+  font-size: 0.875rem;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+.footer svg {
+  fill: white;
+}
+.footer .wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1.5rem;
+}
+.footer h2 {
+  font-size: 1rem;
+  margin-top: 0.25rem;
+  margin-bottom: 1rem;
+}
+.footer__logo {
+  margin-bottom: 0.75rem;
+}
+.footer__extLinkWrap {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
 }
